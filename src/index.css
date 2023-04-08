@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,400;1,500&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family:'Roboto',sans-serif;
+}
+body{
+  overflow-x:hidden !important;
+  max-width: 100vw;
+  max-height:100vh;
+}
+#root{
+  overflow-x: hidden;
+}
+::-webkit-scrollbar{
+  width: 12px;
+}
+::-webkit-scrollbar-thumb{
+  background: linear-gradient(transparent,#42da06c8);
+  border-radius:6px;
+  transition:2s;
+  height:300px;
+}
+::-webkit-scrollbar-thumb:hover{
+background: linear-gradient(transparent,#000f83ea);
+transition:2s;
+}
